@@ -1,3 +1,6 @@
 [submodule "workbook"]
 	path = workbook
 	url = https://tanya@www.penflip.com/tanya/building-with-python-workbook.git
+[submodule "slideshow"]
+	path = slideshow
+	url = https://tanya@www.penflip.com/tanya/building-with-python-slideshow.git
