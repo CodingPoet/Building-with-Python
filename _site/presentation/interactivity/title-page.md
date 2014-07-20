@@ -1,15 +1,13 @@
-![Gather Workshops Logo](images/gw_logo_header.png)
+# Adding Interactivity
 
-# Building with Python
-
-### _Introduction to Programming with Python_
+_Reacting to user inputs_
 
 
 
 
 Note:
-Welcome to building with Python!
+Programs are a bit boring when they just run and then finish.
 
-Introduce yourself plus each mentor and a fun fact about yourselves. 
+Let's look at how we can ask for a user's input and then react to it.
 
-Don't forget everyone's name tags :)
+To step through the process of pulling together a whole multi-file program, we will be working through the creation of a text-based game.

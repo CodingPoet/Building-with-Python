@@ -1,0 +1,138 @@
+/**
+ * Gather Workshops theme for reveal.js.
+ * Author: Gather Workshops
+ */
+
+// Default mixins and settings -----------------
+@import "../submodules/revealjs/css/theme/template/mixins";
+@import "../submodules/revealjs/css/theme/template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts -----------------
+@import url("http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic");
+// ---------------------------------------------
+
+
+
+// Override theme settings -----------------
+// (see ../template/settings.scss)
+
+// Background of the presentation
+$backgroundColor: #F3F3DA;
+
+// Primary/body text
+$mainFont: 'Karla', sans-serif;
+$mainFontSize: 1.75em;
+$mainColor: #001E39;
+
+// Headings
+$headingMargin: 0 0 20px 0;
+$headingFont: 'Lunchbox', 'Karla', sans-serif;
+$headingColor: #001E39;
+$headingLineHeight: 0.9em;
+$headingLetterSpacing: auto;
+$headingTextTransform: none;
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+$heading1TextShadow: $headingTextShadow;
+
+// Links and actions
+$linkColor: #DE320B;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background: $backgroundColor;
+}
+// ---------------------------------------------
+
+
+
+// Create custom variables -------------
+
+$titleTextShadow: 2px 2px 1px rgb(134,32,26);
+
+
+// ----------------------------
+
+
+// Write custom hard-coded overrides -----------------
+
+
+.reveal {
+
+	// targets the section elements wrapping each slide
+	//& > section {
+
+		line-height: 1.4;
+		text-align: left;
+
+		// normal paragraphs displayed on a slide
+		p {
+			margin-top: 1em;
+			margin-bottom: 0.4em;
+		}
+
+		// normal images displayed on a slide
+		img {
+			border: 0 !important;
+			box-shadow: none !important;
+			background: transparent !important;
+		}
+
+		// code block displayed on slides
+		pre {
+			margin: 0 0;
+			margin-bottom: 1em;
+			font-size: inherit;
+			width: 100%;
+
+			code {
+				padding: 10px;
+				font-size: inherit;
+				background-color: #3F3F3F;
+			}
+		}
+
+		// inline code within paragraphs
+		code {
+			font-size: 120%;
+			background-color: rgba(255,255,255,0.8);
+			padding: 6px;
+		}
+
+	//}
+
+	// overrides for centered slides
+	.centered-slide {
+		text-align: center;
+	}
+
+	
+	// overrides for section title slides
+	.title-slide {
+
+	  	color: #DCE3B2;
+		text-shadow: $titleTextShadow;
+
+		h1, h2, h3 {
+			color: #DCE3B2;
+			text-shadow: $titleTextShadow;
+		}
+	}
+
+}
+
+// ---------------------------------------------
+
+
+
+// Theme template ------------------------------
+@import "../submodules/revealjs/css/theme/template/theme";
+// ---------------------------------------------

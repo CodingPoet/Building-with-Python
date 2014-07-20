@@ -54,13 +54,84 @@
     - filename: title-page.md
       class: title-slide
 
+    - filename: python-files.md
+      class: centered-slide
+
+    - filename: code-snippets.md
+      class: centered-slide
+
+    - filename: komodo-projects.md
+      class: centered-slide
+
+    - filename: running-scripts.md
+      class: centered-slide
+
+    - filename: hello-world.md
+      class: centered-slide
+
+    - filename: variables.md
+      class: centered-slide
+
+    - filename: variable-examples.md
+      class: centered-slide
+
+    - filename: variable-play.md
+      class: centered-slide
+
+    - filename: conditionals.md
+      class: centered-slide
+
+    - filename: conditional-examples.md
+      class: centered-slide
+
+    - filename: conditional-extra-examples.md
+      class: centered-slide
+
+    - filename: conditional-play.md
+      class: centered-slide
+
+    - filename: loops.md
+      class: centered-slide
+
+    - filename: loop-examples.md
+      class: centered-slide
+
+    - filename: loop-play.md
+      class: centered-slide
+
+    - filename: functions.md
+      class: centered-slide
+
+    - filename: function-examples.md
+      class: centered-slide
+
+    - filename: function-play.md
+      class: centered-slide
+
+    - filename: summary.md
+      class: centered-slide
 
 
-- sectionname: appstructure
+- sectionname: creatingprograms
   slides:
 
     - filename: title-page.md
       class: title-slide
+
+    - filename: programs-overview.md
+      class: centered-slide
+
+    - filename: our-program.md
+      class: centered-slide
+
+    - filename: starter-code.md
+      class: centered-slide
+
+    - filename: project-tour.md
+      class: centered-slide
+
+    - filename: first-run.md
+      class: centered-slide
 
 
 

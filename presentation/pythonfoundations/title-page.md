@@ -2,7 +2,7 @@
 
 # Building with Python
 
-### _An Interactive Introduction_
+_An Interactive Introduction_
 
 
 
