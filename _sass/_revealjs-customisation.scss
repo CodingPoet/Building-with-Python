@@ -12,6 +12,11 @@
 	z-index: 8;
 	padding: 20px 30px;
 	box-sizing: border-box;
+
+	code {
+		background: #F3F3DA;
+		padding: 2px 5px;
+	}
 }
 
 .reveal .slides > section {
