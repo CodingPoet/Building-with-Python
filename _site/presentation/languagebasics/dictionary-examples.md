@@ -1,4 +1,0 @@
-### Dictionaries
-
-Note: 
-Explain dictionaries.
