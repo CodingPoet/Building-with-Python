@@ -67,47 +67,43 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 
 .reveal {
 
-	// targets the section elements wrapping each slide
-	//& > section {
+	line-height: 1.4;
+	text-align: left;
 
-		line-height: 1.4;
-		text-align: left;
+	// normal paragraphs displayed on a slide
+	p {
+		margin-top: 1em;
+		margin-bottom: 0.4em;
+	}
 
-		// normal paragraphs displayed on a slide
-		p {
-			margin-top: 1em;
-			margin-bottom: 0.4em;
-		}
+	// normal images displayed on a slide
+	img {
+		border: 0 !important;
+		box-shadow: none !important;
+		background: transparent !important;
+	}
 
-		// normal images displayed on a slide
-		img {
-			border: 0 !important;
-			box-shadow: none !important;
-			background: transparent !important;
-		}
+	// code block displayed on slides
+	pre {
+		margin: 0 0;
+		margin-bottom: 1em;
+		font-size: 80%;
+		width: 100%;
 
-		// code block displayed on slides
-		pre {
-			margin: 0 0;
-			margin-bottom: 1em;
-			font-size: inherit;
-			width: 100%;
-
-			code {
-				padding: 10px;
-				font-size: inherit;
-				//background-color: #3F3F3F;
-			}
-		}
-
-		// inline code within paragraphs
 		code {
-			font-size: 120%;
-			background-color: rgba(255,255,255,0.8);
-			padding: 6px;
+			padding: 10px;
+			font-size: inherit;
+			background-color: #3F3F3F;
 		}
+	}
 
-	//}
+	// inline code within paragraphs
+	code {
+		font-size: 120%;
+		background-color: rgba(255,255,255,0.8);
+		padding: 6px;
+	}
+
 
 	// overrides for centered slides
 	.centered-slide {
