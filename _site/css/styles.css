@@ -386,11 +386,12 @@ ul {
   .reveal pre {
     margin: 0 0;
     margin-bottom: 1em;
-    font-size: inherit;
+    font-size: 80%;
     width: 100%; }
     .reveal pre code {
       padding: 10px;
-      font-size: inherit; }
+      font-size: inherit;
+      background-color: #3F3F3F; }
   .reveal code {
     font-size: 120%;
     background-color: rgba(255, 255, 255, 0.8);
@@ -547,6 +548,9 @@ body {
   z-index: 8;
   padding: 20px 30px;
   box-sizing: border-box; }
+  .inline-notes code {
+    background: #F3F3DA;
+    padding: 2px 5px; }
 
 .reveal .slides > section {
   padding: 0; }
