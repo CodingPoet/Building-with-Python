@@ -4,7 +4,8 @@
 
 Before you go, click through to the last link of the day:
 
-http://tiny.cc/gather
+http://tiny.cc/gatherworkshops
+<!-- http://tiny.cc/gather -->
 
 Note:
 Woohoo!
