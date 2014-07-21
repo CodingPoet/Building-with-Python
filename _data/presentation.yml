@@ -78,6 +78,9 @@
     - filename: variable-play.md
       class: centered-slide
 
+    - filename: dictionary-examples.md
+      class: centered-slide
+
     - filename: conditionals.md
       class: centered-slide
 
@@ -133,13 +136,20 @@
     - filename: first-run.md
       class: centered-slide
 
+    - filename: alleyway-class.md
+      class: centered-slide
 
+    - filename: include-alleyway.md
+      class: centered-slide
 
-- sectionname: interactivity
-  slides:
+    - filename: enter-alleyway.md
+      class: centered-slide
 
-    - filename: title-page.md
-      class: title-slide
+    - filename: door-options.md
+      class: centered-slide
+
+    - filename: user-input.md
+      class: centered-slide
 
 
 
@@ -148,6 +158,73 @@
 
     - filename: title-page.md
       class: title-slide
+
+    - filename: loop-identification.md
+      class: centered-slide
+
+    - filename: loop-definition.md
+      class: centered-slide
+
+    - filename: enter-room.md
+      class: centered-slide
+
+    - filename: other-rooms.md
+      class: centered-slide
+
+    - filename: navigating-rooms.md
+      class: centered-slide
+
+    - filename: victory-condition.md
+      class: centered-slide
+
+    - filename: end-in-tool-shed.md
+      class: centered-slide
+
+    - filename: tip-function-length.md
+      class: centered-slide
+
+    - filename: ask-what-to-do.md
+      class: centered-slide
+
+    - filename: simplified-enterroom.md
+      class: centered-slide
+
+    - filename: hide-key.md
+      class: centered-slide
+
+    # item constructor explanation
+
+    - filename: print-room-items.md
+      class: centered-slide
+
+    - filename: picking-up-items.md
+      class: centered-slide
+
+    - filename: backpack.md
+      class: centered-slide
+
+    - filename: item-by-button.md
+      class: centered-slide
+
+    - filename: take-item.md
+      class: centered-slide
+
+    - filename: item-to-backpack.md
+      class: centered-slide
+
+    - filename: enable-door-locking.md
+      class: centered-slide
+
+    - filename: lock-door.md
+      class: centered-slide
+
+    - filename: respect-lock.md
+      class: centered-slide
+
+    - filename: open-door.md
+      class: centered-slide
+
+    # timing and tidying
 
 
 

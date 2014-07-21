@@ -15,6 +15,20 @@ class Room(object):
 				chosenDoor = door
 		
 		return chosenDoor
-		
 	
+	# get the item related to the key
+	def getItemByButton(self, buttonPressed):
 
+		chosenItem = None
+	
+		for item in self.items:
+
+			if item.button is buttonPressed:
+				chosenItem = item
+		
+		return chosenItem
+	
+	# remove an item from the list of available items
+	def removeItem(self, itemToRemove):
+		
+		self.items.remove(itemToRemove)

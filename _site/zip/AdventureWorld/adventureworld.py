@@ -6,6 +6,12 @@ class AdventureWorld(object):
 	def __init__(self):
 		
 		print(sys.version)
+		self.createRooms()
+
+
+	# create all the rooms in the game
+	def createRooms(self):
+		self.rooms = {}
 	
 
 	# start the game from the beginning
