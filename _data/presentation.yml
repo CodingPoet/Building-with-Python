@@ -1,6 +1,9 @@
 - sectionname: pythonfoundations
   slides:
 
+    - filename: workshop-intro.md
+      class: title-slide
+
     - filename: title-page.md
       class: title-slide
 

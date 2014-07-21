@@ -1,15 +1,9 @@
-![Gather Workshops Logo](images/gw_logo_header.png)
+# The Power of Python
 
-# Building with Python
-
-_An Interactive Introduction_
+_Finding Python's place in the world_
 
 
 
 
 Note:
-Welcome to building with Python!
-
-Introduce yourself plus each mentor and a fun fact about yourselves. 
-
-Don't forget everyone's name tags :)
+To start off, let's take a look at what Python is, what it is used for in the real world, and what we can gain from learning it.

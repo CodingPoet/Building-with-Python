@@ -1,91 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
- * Gather Workshops theme for reveal.js.
- * Author: Gather Workshops
+ * Beige theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url("http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic");
-.reveal section p {
-  margin-top: 1em;
-  margin-bottom: 0.4em; }
-.reveal section img {
-  border: 0 !important;
-  box-shadow: none !important;
-  background: transparent !important; }
-.reveal pre {
-  margin: 0 0;
-  margin-bottom: 1em;
-  font-size: 1.2em;
-  width: 100%; }
-  .reveal pre code {
-    padding: 10px;
-    font-size: inherit;
-    background-color: #3F3F3F; }
-.reveal code {
-  font-size: 120%;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 6px; }
-.reveal .default-slide,
-.reveal .centered-slide {
-  line-height: 1.4;
-  text-align: left; }
-  .reveal .default-slide h2,
-  .reveal .centered-slide h2 {
-    font-size: 1.8em;
-    font-weight: bold;
-    border-bottom: none;
-    padding-top: 100px;
-    padding-bottom: 30px;
-    text-transform: uppercase;
-    padding: 0.1em 0.5em;
-    background: #dce2b1;
-    margin-left: -0.5em;
-    margin-bottom: 1.5em;
-    display: inline-block;
-    position: relative;
-    top: 20px;
-    			/*&:before, &:after {
-    				content: "";
-    				position: absolute;
-    				display: block;
-    				border-style: solid;
-    				border-color: rgb(220,226,177) transparent transparent transparent;
-    				top: 0;
-    				left: 100%;
-    				border-width: 1em;
-    				margin-left: -1em;
-    			}
-    
-    			&:after {
-    				border-color: transparent transparent rgb(220,226,177)  transparent;
-    				bottom: 0;
-    				top: auto;
-    			}*/ }
-.reveal .centered-slide {
-  text-align: center; }
-.reveal .title-slide {
-  color: #DCE3B2;
-  text-shadow: 2px 2px 1px #86201a; }
-  .reveal .title-slide h1, .reveal .title-slide h2, .reveal .title-slide h3 {
-    color: #DCE3B2;
-    font-weight: bold;
-    text-shadow: 2px 2px 1px #86201a; }
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../../lib/font/league_gothic-webfont.eot");
+  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #f3f3da;
-  background-color: #f3f3da; }
+  background: #f7f2d3;
+  background: -moz-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #f7f2d3));
+  background: -webkit-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background-color: #f7f3de; }
 
 .reveal {
-  font-family: "Karla", sans-serif;
-  font-size: 1.75em;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #001e39; }
+  color: #333333; }
 
 ::selection {
   color: white;
-  background: #ff5e99;
+  background: rgba(79, 64, 28, 0.99);
   text-shadow: none; }
 
 /*********************************************
@@ -98,21 +46,21 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #001e39;
-  font-family: "Karla", sans-serif;
+  color: #333333;
+  font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
-  letter-spacing: auto;
-  text-transform: none;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; }
 
 .reveal h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #de320b;
+  color: #8b743d;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -121,13 +69,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #f77658;
+  color: #c0a86e;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #952207; }
+  background: #564826; }
 
 /*********************************************
  * IMAGES
@@ -135,7 +83,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #001e39;
+  border: 4px solid #333333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -145,7 +93,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #de320b;
+  border-color: #8b743d;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -153,31 +101,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #de320b; }
+  border-right-color: #8b743d; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #de320b; }
+  border-left-color: #8b743d; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #de320b; }
+  border-bottom-color: #8b743d; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #de320b; }
+  border-top-color: #8b743d; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #f77658; }
+  border-right-color: #c0a86e; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #f77658; }
+  border-left-color: #c0a86e; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #f77658; }
+  border-bottom-color: #c0a86e; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #f77658; }
+  border-top-color: #c0a86e; }
 
 /*********************************************
  * PROGRESS BAR
@@ -186,7 +134,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #de320b;
+  background: #8b743d;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -197,4 +145,4 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #de320b; }
+  color: #8b743d; }
