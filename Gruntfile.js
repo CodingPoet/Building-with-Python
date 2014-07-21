@@ -16,6 +16,16 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// SUBTASK: copy stuff around
+		copy: {
+			css: {
+		    	files: [
+		      		{ src: ['_site/css/styles.css'], dest: 'css/styles.css', flatten: true }
+		      	]
+		    }
+		},
+
+
 		// SUBTASK: build jekyll site
 		jekyll: {
 			options: {                          // Universal options
@@ -53,6 +63,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
+	grunt.loadNpmTasks( 'grunt-contrib-copy' )
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
