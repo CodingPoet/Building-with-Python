@@ -78,7 +78,7 @@
 
 				multiplex: {
 			        // Example values. To generate your own, see the socket.io server instructions.
-			        secret: null, // null so the clients do not have control of the master presentation
+			        secret: '14059127999326462780', // null so the clients do not have control of the master presentation
 			        id: '7d2c34cb87ea06fd', // id, obtained from socket.io server
 			        url: 'revealjs.jit.su:80' // Location of socket.io server
 			    },
@@ -87,18 +87,13 @@
 				dependencies: [
 					{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
         			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/multiplex/client.js', async: true },
+        			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/multiplex/master.js', async: true },
 
 					{ src: '{{ site.baseurl }}/submodules/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { 
-						hljs.configure({
-							tabReplace: '    ', 		// 4 spaces
-  							classPrefix: '',    		// don't append class prefix
-  							languages: ['xml', 'css', 'python']	// only handle html, css and python
-						});
-						hljs.initHighlightingOnLoad(); 
-					} },
+					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); 
+						} },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
