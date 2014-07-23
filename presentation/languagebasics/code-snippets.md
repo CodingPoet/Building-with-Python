@@ -1,6 +1,6 @@
 ### Code Snippets
 
-<a href="/Building-the-Web/zip/Snippets.zip">
+<a href="/Building-with-Python/zip/Snippets.zip">
 <img alt="Python - It's for everybody" src="images/download-files.svg" width="400">
 </a>
 

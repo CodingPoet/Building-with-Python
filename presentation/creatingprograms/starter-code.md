@@ -1,6 +1,6 @@
 ### Starter Code
 
-<a href="/Building-the-Web/zip/AdventureWorld.zip">
+<a href="/Building-with-Python/zip/AdventureWorld.zip">
 <img src="images/download-files.svg" width="400">
 </a>
 
