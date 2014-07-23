@@ -1,4 +1,9 @@
-### Readability and Syntax
+### Python Loves:
+
+- Readability of Code
+- Simple Syntax
+- Basic Scripting
+- Complex Applications
 
 
 Note:

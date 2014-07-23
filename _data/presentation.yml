@@ -63,6 +63,9 @@
     - filename: code-snippets.md
       class: centered-slide
 
+    - filename: komodo-edit.md
+      class: centered-slide
+    
     - filename: komodo-projects.md
       class: centered-slide
 
@@ -106,9 +109,6 @@
       class: centered-slide
 
     - filename: functions.md
-      class: centered-slide
-
-    - filename: function-examples.md
       class: centered-slide
 
     - filename: function-play.md
@@ -233,6 +233,9 @@
 
 - sectionname: endsummary
   slides:
+
+    - filename: ncss-challenge.md
+      class: centered-slide
 
     - filename: feedback.md
       class: centered-slide

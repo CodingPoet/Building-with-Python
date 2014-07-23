@@ -14,6 +14,8 @@ Both of the conditionals below actually do the same thing:
     else:
         print("Thanks for paying! Go on through.")
 
+&nbsp;
+
     if userHasPaid == true:
         print("Thanks for paying! Go on through.")
     else:

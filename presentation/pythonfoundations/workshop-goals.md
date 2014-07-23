@@ -1,7 +1,6 @@
 ### Workshop Goals
 
-What will we achieve today?
-
+_What will we achieve today?_
 
 
 Note:

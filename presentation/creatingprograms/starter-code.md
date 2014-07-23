@@ -1,6 +1,11 @@
 ### Starter Code
 
-Link to starter code
+<a href="/Building-the-Web/zip/AdventureWorld.zip">
+<img src="images/download-files.svg" width="400">
+</a>
+
+[AdventureWorld.zip](/Building-the-Web/zip/Snippets.zip)
+
 
 Note:
 To save some time (and your typing fingers!), we've provided a set of starter code.

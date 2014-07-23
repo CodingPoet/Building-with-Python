@@ -1,6 +1,8 @@
-### Not a crash course
+<img src="images/snake-game.svg" width="600">
 
-Making cool stuff
+### We're Here To Make Cool Stuff
+
+_Not to do a crash course in programming theory_
 
 Note:
 This workshop is not a crash course in Python, in that we don't cover a lot of depth or theory. Instead we cover a broad range of concepts with a goal in mind of an application you can actually take home at the end and show off to people.
