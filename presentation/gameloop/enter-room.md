@@ -1,6 +1,6 @@
 ### Enter Room
 
-    self.enterRoom('Alleyway')
+    self.enterRoom("Alleyway")
 
 Note:
 Now, calling the `enterRoom` function and passing it the name of the room to enter should print out all the information for the given room.

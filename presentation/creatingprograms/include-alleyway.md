@@ -9,7 +9,7 @@ Add the Alleyway to the list of available rooms:
 
 	def createRooms(self):
 		self.rooms = {
-			'The Alleyway': Alleyway()
+			"The Alleyway": Alleyway()
 		}
 
 Note:

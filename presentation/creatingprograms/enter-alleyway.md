@@ -7,7 +7,7 @@
 		print("You wake to find yourself in a dark, dirty alleyway. Night is falling. Your head hurts and you can't remember how you got here. ")
 		print("")
 		
-		room = self.rooms['Alleyway']
+		room = self.rooms["Alleyway"]
 		print(room.name)
 		print(room.description)
 

@@ -4,8 +4,8 @@ In `gardens.py`, modify the Shed Door:
 
 	# create all the doors leading out of the room
     self.doors = [
-        Door('g', 'Glass Door', 'Dining Hall'),
-        Door('s', 'Shed Door', 'Tool Shed', 'Key')
+        Door("g", "Glass Door", "Dining Hall"),
+        Door("s", "Shed Door", "Tool Shed", "Key")
     ]
 
 Note:

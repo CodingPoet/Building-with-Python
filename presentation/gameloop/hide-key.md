@@ -4,7 +4,7 @@ In cellar.py:
 
     # create all the items you can interact with in the room
     self.items = [
-        Item('k', 'Key')
+        Item("k", "Key")
     ]
 
 Note:
