@@ -1,16 +1,6 @@
 ### Conditionals
 _If this, then that_
 
-Logical layout of code
-
-	if this
-		then that
-
-Actual example of code
-
-	if itIsRaining
-		print("Use your umbrella!")
-
 Note:
 Conditionals are like switches which only turn on under certain circumstances.
 

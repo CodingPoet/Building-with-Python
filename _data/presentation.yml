@@ -78,40 +78,40 @@
     - filename: variables.md
       class: centered-slide
 
-    - filename: variable-examples.md
-      class: centered-slide
-
     - filename: variable-play.md
       class: centered-slide
 
-    - filename: dictionary-examples.md
+    - filename: dictionaries-and-arrays.md
       class: centered-slide
 
-    - filename: conditionals.md
-      class: centered-slide
-
-    - filename: conditional-examples.md
-      class: centered-slide
-
-    - filename: conditional-extra-examples.md
-      class: centered-slide
-
-    - filename: conditional-play.md
+    - filename: dictionary-and-array-play.md
       class: centered-slide
 
     - filename: loops.md
       class: centered-slide
 
-    - filename: loop-examples.md
+    - filename: loop-play.md
       class: centered-slide
 
-    - filename: loop-play.md
+    - filename: conditionals.md
+      class: centered-slide
+
+    - filename: conditional-play.md
       class: centered-slide
 
     - filename: functions.md
       class: centered-slide
 
     - filename: function-play.md
+      class: centered-slide
+
+    - filename: classes.md
+      class: centered-slide
+
+    - filename: multiple-classes.md
+      class: centered-slide
+
+    - filename: class-inheritance.md
       class: centered-slide
 
     - filename: summary.md

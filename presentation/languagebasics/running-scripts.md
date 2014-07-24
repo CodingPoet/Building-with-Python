@@ -1,8 +1,13 @@
 ### Running Scripts
 
+- Go to Tools > Run Command... 
+- Enter %(python3) -u %F
+- Tick "Add to toolbox"
+- Done!
+
 Note:
-Click on the first file, the one starting with a zero. 
+Open the first file, `00-hello-world.py` 
 
 This is our good friend the `print` function. We'll be using print a lot in our text-based Python programs, because it's how we make words appear the screen.
 
-To run the file, we'll set up an action. Go to Tools > Run Command... and enter `%(python) -u %F`
+To run the file, we'll set up an action. Go to Tools > Run Command... and enter `%(python3) -u %F`

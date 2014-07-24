@@ -1,20 +1,6 @@
 ### Loops
 
-Example of a loop:
-
-    print("Here are the seven times tables:")
-
-    for number in range(1, 6):
-        result = 7 * number
-        print(result)
-
-And its output:
-
-    7
-    14
-    21
-    28
-    35
+_Let you run the same piece of code many times_
 
 Note:
 Loops allow you to run the same piece of code many times in a row.

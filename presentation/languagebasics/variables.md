@@ -1,8 +1,9 @@
 ### Variables
+_are like named boxes where you can store information_
 
-	score = 0
-	username = "fluffybunny"
-	reminderMessage = "Time for a break!"
+`username = "pythongeek93"`
+
+`topScore = 81000500`
 
 Note:
 First up, variables!
