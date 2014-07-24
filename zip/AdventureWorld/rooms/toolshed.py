@@ -13,7 +13,7 @@ class ToolShed(Room):
         
         # create all the doors leading out of the room    
         self.doors = [
-            Door('s', 'Shed Door', 'Gardens')
+            Door("s", "Shed Door", "Gardens")
         ]
         
         # create all the items you can interact with in the room

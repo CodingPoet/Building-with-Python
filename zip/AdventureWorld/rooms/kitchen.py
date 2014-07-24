@@ -13,9 +13,9 @@ class Kitchen(Room):
         
         # create all the doors leading out of the room    
         self.doors = [
-            Door('r', 'Red Door', 'Alleyway'),
-            Door('b', 'Brown Door', 'Dining Hall'),
-            Door('w', 'Wooden Door', 'Cellar')
+            Door("r", "Red Door", "Alleyway"),
+            Door("b", "Brown Door", "Dining Hall"),
+            Door("w", "Wooden Door", "Cellar")
         ]
         
         # create all the items you can interact with in the room

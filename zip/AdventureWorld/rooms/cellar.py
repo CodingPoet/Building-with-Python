@@ -14,7 +14,7 @@ class Cellar(Room):
         
         # create all the doors leading out of the room
         self.doors = [
-            Door('s', 'Stairwell Door', 'Kitchen'),
+            Door("s", "Stairwell Door", "Kitchen"),
         ]
         
         # create all the items you can interact with in the room

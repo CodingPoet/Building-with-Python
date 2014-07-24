@@ -13,9 +13,9 @@ class Alleyway(Room):
         
         # create all the doors leading out of the room
         self.doors = [
-            Door('r', 'Red Door', 'Kitchen'),
-            Door('g', 'Green Door', 'Dining Hall'),
-            Door('b', 'Black Gate', 'Gardens')
+            Door("r", "Red Door", "Kitchen"),
+            Door("g", "Green Door", "Dining Hall"),
+            Door("b", "Black Gate", "Gardens")
         ]
         
         # create all the items you can interact with in the room

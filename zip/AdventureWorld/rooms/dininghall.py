@@ -13,9 +13,9 @@ class DiningHall(Room):
         
         # create all the doors leading out of the room
         self.doors = [
-            Door('a', 'Air Vent', 'Alleyway'),
-            Door('b', 'Brown Door', 'Kitchen'),
-            Door('g', 'Glass Door', 'Gardens')
+            Door("a", "Air Vent", "Alleyway"),
+            Door("b", "Brown Door", "Kitchen"),
+            Door("g", "Glass Door", "Gardens")
         ]
         
         # create all the items you can interact with in the room
