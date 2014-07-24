@@ -65,13 +65,13 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 // Write custom hard-coded overrides -----------------
 
 
-.reveal .slides > section {
+.reveal {
 
 	line-height: 1.4;
 	text-align: left;
 
 	// normal paragraphs displayed on a slide
-	p {
+	.slides > section p {
 		margin-top: 0.4em;
 		margin-bottom: 0.8em;
 	}
@@ -106,13 +106,13 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 
 
 	// overrides for centered slides
-	&.centered-slide {
+	.centered-slide {
 		text-align: center;
 	}
 
 	
 	// overrides for section title slides
-	&.title-slide {
+	.title-slide {
 
 	  	color: #DCE3B2;
 		text-shadow: $titleTextShadow;

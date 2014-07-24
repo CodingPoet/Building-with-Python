@@ -401,35 +401,35 @@ ul {
  * Gather Workshops theme for reveal.js.
  * Author: Gather Workshops
  */
-.reveal .slides > section {
+.reveal {
   line-height: 1.4;
   text-align: left; }
   .reveal .slides > section p {
     margin-top: 0.4em;
     margin-bottom: 0.8em; }
-  .reveal .slides > section img {
+  .reveal img {
     border: 0 !important;
     box-shadow: none !important;
     background: transparent !important; }
-  .reveal .slides > section pre {
+  .reveal pre {
     margin: 0 0;
     margin-bottom: 1em;
     font-size: 80%;
     width: 100%; }
-    .reveal .slides > section pre code {
+    .reveal pre code {
       padding: 10px;
       font-size: inherit;
       background-color: #3F3F3F; }
-  .reveal .slides > section code {
+  .reveal code {
     font-size: 120%;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 6px; }
-  .reveal .slides > section.centered-slide {
+  .reveal .centered-slide {
     text-align: center; }
-  .reveal .slides > section.title-slide {
+  .reveal .title-slide {
     color: #DCE3B2;
     text-shadow: 2px 2px 1px #86201a; }
-    .reveal .slides > section.title-slide h1, .reveal .slides > section.title-slide h2, .reveal .slides > section.title-slide h3 {
+    .reveal .title-slide h1, .reveal .title-slide h2, .reveal .title-slide h3 {
       color: #DCE3B2;
       text-shadow: 2px 2px 1px #86201a; }
 
