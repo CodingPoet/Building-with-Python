@@ -1,52 +1,52 @@
 - sectionname: pythonfoundations
   slides:
 
-    - filename: workshop-intro.md
+    - filename: workshop-intro
       class: title-slide
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: what-is-python.md
+    - filename: what-is-python
       class: centered-slide
 
-    - filename: readability-and-syntax.md
+    - filename: readability-and-syntax
       class: centered-slide
 
-    - filename: install-and-run.md
+    - filename: install-and-run
       class: centered-slide
 
-    - filename: python-versions.md
+    - filename: python-versions
       class: centered-slide
 
-    - filename: real-world-uses.md
+    - filename: real-world-uses
       class: centered-slide
 
-    - filename: usage-examples.md
+    - filename: usage-examples
       class: centered-slide
 
-    - filename: language-popularity.md
+    - filename: language-popularity
       class: centered-slide
 
-    - filename: benefits-of-learning.md
+    - filename: benefits-of-learning
       class: centered-slide
 
-    - filename: common-concepts.md
+    - filename: common-concepts
       class: centered-slide
 
-    - filename: diverse-uses.md
+    - filename: diverse-uses
       class: centered-slide
 
-    - filename: employable-skill-set.md
+    - filename: employable-skill-set
       class: centered-slide
 
-    - filename: workshop-goals.md
+    - filename: workshop-goals
       class: centered-slide
 
-    - filename: not-a-crash-course.md
+    - filename: not-a-crash-course
       class: centered-slide
 
-    - filename: summary.md
+    - filename: summary
       class: centered-slide
 
 
@@ -54,104 +54,104 @@
 - sectionname: languagebasics
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: python-files.md
+    - filename: python-files
       class: centered-slide
 
-    - filename: code-snippets.md
+    - filename: code-snippets
       class: centered-slide
 
-    - filename: komodo-edit.md
+    - filename: komodo-edit
       class: centered-slide
     
-    - filename: komodo-projects.md
+    - filename: komodo-projects
       class: centered-slide
 
-    - filename: running-scripts.md
+    - filename: running-scripts
       class: centered-slide
 
-    - filename: hello-world.md
+    - filename: hello-world
       class: centered-slide
 
-    - filename: variables.md
+    - filename: variables
       class: centered-slide
 
-    - filename: variable-play.md
+    - filename: variable-play
       class: centered-slide
 
-    - filename: dictionaries-and-arrays.md
+    - filename: dictionaries-and-arrays
       class: centered-slide
 
-    - filename: dictionary-and-array-play.md
+    - filename: dictionary-and-array-play
       class: centered-slide
 
-    - filename: loops.md
+    - filename: loops
       class: centered-slide
 
-    - filename: loop-play.md
+    - filename: loop-play
       class: centered-slide
 
-    - filename: conditionals.md
+    - filename: conditionals
       class: centered-slide
 
-    - filename: conditional-play.md
+    - filename: conditional-play
       class: centered-slide
 
-    - filename: functions.md
+    - filename: functions
       class: centered-slide
 
-    - filename: function-play.md
+    - filename: function-play
       class: centered-slide
 
-    - filename: classes.md
+    - filename: classes
       class: centered-slide
 
-    - filename: multiple-classes.md
+    - filename: multiple-classes
       class: centered-slide
 
-    - filename: class-inheritance.md
+    - filename: class-inheritance
       class: centered-slide
 
-    - filename: summary.md
+    - filename: summary
       class: centered-slide
 
 
 - sectionname: creatingprograms
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: programs-overview.md
+    - filename: programs-overview
       class: centered-slide
 
-    - filename: our-program.md
+    - filename: our-program
       class: centered-slide
 
-    - filename: starter-code.md
+    - filename: starter-code
       class: centered-slide
 
-    - filename: project-tour.md
+    - filename: project-tour
       class: centered-slide
 
-    - filename: first-run.md
+    - filename: first-run
       class: centered-slide
 
-    - filename: alleyway-class.md
+    - filename: alleyway-class
       class: centered-slide
 
-    - filename: include-alleyway.md
+    - filename: include-alleyway
       class: centered-slide
 
-    - filename: enter-alleyway.md
+    - filename: enter-alleyway
       class: centered-slide
 
-    - filename: door-options.md
+    - filename: door-options
       class: centered-slide
 
-    - filename: user-input.md
+    - filename: user-input
       class: centered-slide
 
 
@@ -159,72 +159,72 @@
 - sectionname: gameloop
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: loop-identification.md
+    - filename: loop-identification
       class: centered-slide
 
-    - filename: loop-definition.md
+    - filename: loop-definition
       class: centered-slide
 
-    - filename: enter-room.md
+    - filename: enter-room
       class: centered-slide
 
-    - filename: other-rooms.md
+    - filename: other-rooms
       class: centered-slide
 
-    - filename: navigating-rooms.md
+    - filename: navigating-rooms
       class: centered-slide
 
-    - filename: victory-condition.md
+    - filename: victory-condition
       class: centered-slide
 
-    - filename: end-in-tool-shed.md
+    - filename: end-in-tool-shed
       class: centered-slide
 
-    - filename: tip-function-length.md
+    - filename: tip-function-length
       class: centered-slide
 
-    - filename: ask-what-to-do.md
+    - filename: ask-what-to-do
       class: centered-slide
 
-    - filename: simplified-enterroom.md
+    - filename: simplified-enterroom
       class: centered-slide
 
-    - filename: hide-key.md
+    - filename: hide-key
       class: centered-slide
 
     # item constructor explanation
 
-    - filename: print-room-items.md
+    - filename: print-room-items
       class: centered-slide
 
-    - filename: picking-up-items.md
+    - filename: picking-up-items
       class: centered-slide
 
-    - filename: backpack.md
+    - filename: backpack
       class: centered-slide
 
-    - filename: item-by-button.md
+    - filename: item-by-button
       class: centered-slide
 
-    - filename: take-item.md
+    - filename: take-item
       class: centered-slide
 
-    - filename: item-to-backpack.md
+    - filename: item-to-backpack
       class: centered-slide
 
-    - filename: enable-door-locking.md
+    - filename: enable-door-locking
       class: centered-slide
 
-    - filename: lock-door.md
+    - filename: lock-door
       class: centered-slide
 
-    - filename: respect-lock.md
+    - filename: respect-lock
       class: centered-slide
 
-    - filename: open-door.md
+    - filename: open-door
       class: centered-slide
 
     # timing and tidying
@@ -234,10 +234,10 @@
 - sectionname: endsummary
   slides:
 
-    - filename: ncss-challenge.md
+    - filename: ncss-challenge
       class: centered-slide
 
-    - filename: feedback.md
+    - filename: feedback
       class: centered-slide
 
 

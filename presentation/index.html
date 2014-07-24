@@ -9,7 +9,7 @@ title: Presentation
 		<!-- slide -->
 		<section 
 			class="{{ slide.class }}" 
-			data-markdown="{{ site.baseurl }}/presentation/{{ section.sectionname }}/{{ slide.filename }}" 
+			data-markdown="{{ site.baseurl }}/presentation/{{ section.sectionname }}/{{ slide.filename }}.md" 
 			data-notes="^Note:" 
 			
 			{% if slide.class == 'title-slide' %}
@@ -18,6 +18,8 @@ title: Presentation
 				data-background-color="#b84f2d"
 				data-background-size="153px" 
 				data-background-repeat="repeat"
+			{% else %}
+				id="{{ section.sectionname }}--{{ slide.filename }}"
 			{% endif %}
 		>
 		</section>
