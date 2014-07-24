@@ -215,9 +215,6 @@
     - filename: item-to-backpack
       class: centered-slide
 
-    - filename: enable-door-locking
-      class: centered-slide
-
     - filename: lock-door
       class: centered-slide
 
