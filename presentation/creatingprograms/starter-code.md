@@ -4,7 +4,7 @@
 <img src="images/download-files.svg" width="400">
 </a>
 
-[AdventureWorld.zip](/Building-the-Web/zip/Snippets.zip)
+[AdventureWorld.zip](/Building-with-Python/zip/AdventureWorld.zip)
 
 
 Note:
