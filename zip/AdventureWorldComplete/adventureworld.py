@@ -1,4 +1,5 @@
 import sys
+from gamewindow import GameWindow
 from rooms.alleyway import Alleyway
 from rooms.cellar import Cellar
 from rooms.dininghall import DiningHall
@@ -15,7 +16,10 @@ class AdventureWorld(object):
 		print(sys.version)
 		self.createRooms()
 		self.backpack = Backpack()
+		self.createGameWindow()
 	
+	def createGameWindow(self):
+		self.game_window = GameWindow(self, self.rooms["Alleyway"])
 	
 	# create all the rooms in the game
 	def createRooms(self):
@@ -43,6 +47,7 @@ class AdventureWorld(object):
 	def enterRoom(self, roomName):
 		
 		room = self.rooms[roomName]
+		
 		print(room.name)
 		print(room.description)
 		
@@ -50,6 +55,8 @@ class AdventureWorld(object):
 			self.end()
 		else:
 			self.askWhatToDo(room)
+			
+		self.game_window.window.update()
 		
 		
 
