@@ -1,0 +1,53 @@
+<script src="{{ site.baseurl }}/submodules/revealjs/lib/js/head.min.js"></script>
+<script src="{{ site.baseurl }}/submodules/revealjs/js/reveal.min.js"></script>
+
+<script>
+
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+
+		theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+		transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+		// Optional libraries used to extend on reveal.js
+		dependencies: [
+			{ src: '{{ site.baseurl }}/submodules/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() {
+					hljs.configure({
+						tabReplace: '    ', // 4 spaces
+							classPrefix: '',     // don't append class prefix
+							languages: ['html', 'css']	// only handle html and css
+					});
+					hljs.initHighlightingOnLoad(); 
+				} },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+	});
+
+	Reveal.addEventListener( 'ready', function( event ) {
+		notes = $(event.currentSlide).find('aside.notes').html();
+	    $('.inline-notes .content').html(marked(notes));
+	} );
+
+	Reveal.addEventListener( 'slidechanged', function( event ) {
+	    notes = $(event.currentSlide).find('aside.notes').html();
+	    $('.inline-notes .content').html(marked(notes));
+	} );
+
+	$(document).keypress(function(e) {
+	  	if(e.which == 13) {
+	  		$("body").toggleClass("with-notes");
+	  	}
+	});
+
+		
+
+</script>

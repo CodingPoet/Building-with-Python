@@ -87,13 +87,13 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 	pre {
 		margin: 0 0;
 		margin-bottom: 1em;
-		font-size: 80%;
+		font-size: 100%;
 		width: 100%;
 
 		code {
 			padding: 10px;
 			font-size: inherit;
-			background-color: #3F3F3F;
+			//background-color: #3F3F3F;
 		}
 	}
 
@@ -104,6 +104,10 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 		padding: 6px;
 	}
 
+	// overrides for centered slides
+	.default-slide {
+		text-align: left;
+	}
 
 	// overrides for centered slides
 	.centered-slide {

@@ -1,0 +1,30 @@
+.big-list {
+
+	list-style-type: none;
+	padding: 0 50px;
+
+	li {
+		border-top: 1px solid rgba(0,0,0,0.1);
+		border-bottom: 1px solid rgba(0,0,0,0.3);
+
+		a {
+			display: block;
+			padding: 30px;
+
+			&:hover {
+				text-decoration: none;
+				background: rgba(255, 255, 255, 0.5);
+			}
+		}
+
+		.subtitle {
+			display: block;
+		}
+
+		.title {
+			display: block;
+			font-size: 2em;
+		}
+	}
+
+}

@@ -56,60 +56,13 @@
 		</div>
 
 		<div class="inline-notes">
-			<!-- display notes here using js -->
-			<p>Loading...</p>
+			<div class="content">
+				<!-- display notes here using js -->
+				<p>Loading...</p>
+			</div>
 		</div>
 
-		<script src="{{ site.baseurl }}/submodules/revealjs/lib/js/head.min.js"></script>
-		<script src="{{ site.baseurl }}/submodules/revealjs/js/reveal.min.js"></script>
-
-		<script>
-
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				/*multiplex: {
-			        // Example values. To generate your own, see http://revealjs.jit.su/token
-			        secret: null,//'1406148814967354481', // null so the clients do not have control of the master presentation
-			        id: '0450068ff7b6626b', // id, obtained from socket.io server
-			        url: 'revealjs.jit.su:80' // Location of socket.io server
-			    },*/
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
-        			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/multiplex/client.js', async: true },
-        			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/multiplex/master.js', async: true },
-
-					{ src: '{{ site.baseurl }}/submodules/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); 
-						} },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-			Reveal.addEventListener( 'ready', function( event ) {
-				notes = $(event.currentSlide).find('aside.notes').html();
-			    $('.inline-notes').html(marked(notes));
-			} );
-
-			Reveal.addEventListener( 'slidechanged', function( event ) {
-			    notes = $(event.currentSlide).find('aside.notes').html();
-			    $('.inline-notes').html(marked(notes));
-			} );
-
-		</script>
+		{% include revealjs-config.html %}
 
 	</body>
 </html>

@@ -2,3 +2,5 @@ name: Building with Python
 baseurl: "/Building-with-Python"
 markdown: redcarpet
 highlighter: true
+collections:
+  - slideshows

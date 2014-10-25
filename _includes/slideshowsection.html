@@ -1,0 +1,22 @@
+{% for slide in section.slides %}
+
+	<!-- slide -->
+	<section 
+		class="{{ slide.class }}" 
+		data-markdown="{{ site.baseurl }}/slideshow/{{ section.sectionname }}/{{ slide.filename }}.md" 
+		data-notes="^Note:" 
+		data-vertical="^Subpage:" 
+		
+		{% if slide.class == 'title-slide' %}
+			id="{{ section.sectionname }}"
+			data-background="{{ site.baseurl }}/images/diamond-bg-tile.png" 
+			data-background-color="#b84f2d"
+			data-background-size="153px" 
+			data-background-repeat="repeat"
+		{% else %}
+			id="{{ section.sectionname }}--{{ slide.filename }}"
+		{% endif %}
+	>
+	</section>
+
+{% endfor %}

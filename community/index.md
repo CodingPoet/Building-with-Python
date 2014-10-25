@@ -36,7 +36,11 @@ Fairly active forum for discussion of all things Python-related.
 
 ## Competitions
 
-Coming soon.
+### [NCSS Challenge](https://groklearning.com/challenge/)
+
+The Challenge is a programming competition for secondary school students which runs once each year. It’s been running in Australia for the last 9 years, and it's now open to everyone - even here in New Zealand!
+
+The Challenge is unlike any other programming competition. They teach you how to program as the competition goes along, rather than expecting you to be an expert already. If you’re a seasoned coder, there's something for you too – the problems range from relatively simple to mind-bendingly hard.
 
 
 

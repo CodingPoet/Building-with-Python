@@ -1,0 +1,136 @@
+---
+
+---
+	{% include header.html %}
+	{% include mainnavigation.html %}
+
+	<div class="page-wrapper">
+
+		<section class="slideshow flex-container">
+			<div class="container">
+
+
+				<!-- slideshow -->
+				<div class="row with-border">
+
+					<!-- actual slides in iframe -->
+					<div class="col-md-8 slideshow">
+						<div class="embed-responsive embed-responsive-4by3">
+							<iframe id="slideshow" width="800" height="600" scrolling="no" src="{{ site.baseurl }}/slideshow/{{ page.section }}">
+							</iframe>
+						</div>
+					</div>
+
+					<!-- accompanying slide explanatory text -->
+					<div class="col-md-4">
+						<div class="slide-notes"></div>
+						<div class="nav-buttons"></div>
+					</div>
+
+				</div><!-- .row -->
+
+
+				<!-- chapter navigation -->
+				<div class="templates">
+
+					{% if page.previous %}
+						<a class="previous-btn" href="{{ site.baseurl }}/workshop/{{ page.previous }}.html">
+							&laquo; Previous Chapter: {{ page.previoustitle }}
+						</a>
+					{% endif %}
+
+					{% if page.next %}
+						<a class="next-btn" href="{{ site.baseurl }}/workshop/{{ page.next }}.html">
+							Next Chapter: {{ page.nexttitle }} &raquo;
+						</a>
+					{% endif %}
+
+				</div><!-- templates -->
+
+
+			</div><!-- .container -->
+		</section><!-- .slideshow.container -->
+
+
+		<div class="container">
+
+			<!-- discussion section -->
+	    	<div class="row">
+
+	        	<div class="col-md-8 page-content">
+					{{ content }}
+				</div>
+
+			</div>
+
+		</div><!-- .container -->
+
+	</div><!-- .page-wrapper -->
+
+
+	{% include footer.html %}
+
+
+	<script type="application/javascript">
+
+		$(document).ready( function() {
+
+			var slideshow = $('#slideshow').contents();
+			var slideshowJS = document.getElementById('slideshow').contentWindow;
+
+			slideshow.on('slidechanged', function(event){
+				updateNotes();
+				checkSlideState();
+			});
+
+			slideshow.on('ready', function(event) {
+				updateNotes();
+				checkSlideState();
+			});
+
+			function updateNotes(){
+				var notes = slideshow.find('.inline-notes').html();
+				$('.slide-notes').html(notes);
+			}
+
+			function checkSlideState(){
+				
+				if( slideshowJS.Reveal.isFirstSlide() ) {
+					$('.slide-notes').append( $('.previous-btn').clone() );
+				}
+
+				if( slideshowJS.Reveal.isLastSlide() ) {
+					$('.slide-notes').append( $('.next-btn').clone() );
+				}				
+
+			}
+
+
+			document.onkeydown = checkKey;
+
+			function checkKey(e) {
+
+				var up = '38';
+				var down = '40';
+				var left = '37';
+				var right = '39';
+
+			    e = e || window.event;
+
+			    if (e.keyCode == up) {
+			        slideshowJS.Reveal.up();
+			    }
+			    else if (e.keyCode == down) {
+			        slideshowJS.Reveal.down();
+			    }
+			    else if (e.keyCode == left) {
+			        slideshowJS.Reveal.left();
+			    }
+			    else if (e.keyCode == right) {
+			        slideshowJS.Reveal.right();
+			    }
+			}
+
+		});
+
+	</script>
