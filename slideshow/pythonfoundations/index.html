@@ -1,0 +1,21 @@
+---
+layout: slideshow
+title: Presentation
+
+section: pythonfoundations
+---
+
+	{% capture loop %}
+		{% for slideshowsection in site.data.presentation %}
+
+			{% if slideshowsection.sectionname == page.section %}
+
+				{% assign section = slideshowsection %}
+
+			{% endif %}
+
+		{% endfor %}
+	{% endcapture %}
+	{% assign loop = nil %}
+
+{% include slideshowsection.html %}
