@@ -38,8 +38,8 @@ $headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
 $heading1TextShadow: $headingTextShadow;
 
 // Links and actions
-$linkColor: #DE320B;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColor: #efad5f;
+$linkColorHover: lighten( $linkColor, 10% );
 
 // Text selection
 $selectionBackgroundColor: #FF5E99;
@@ -127,6 +127,15 @@ $titleTextShadow: 2px 2px 1px rgb(134,32,26);
 		}
 	}
 
+}
+
+.reveal .controls div {
+
+	opacity: 0.15;
+
+	&.enabled {
+		opacity: 0.8;
+	}
 }
 
 // ---------------------------------------------
