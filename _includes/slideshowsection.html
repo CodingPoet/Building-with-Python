@@ -1,22 +1,22 @@
-{% for slide in section.slides %}
+{% for slidename in section.slides %}
 
-	<!-- slide -->
-	<section 
-		class="{{ slide.class }}" 
-		data-markdown
-		data-notes="^Note:" 
-		data-vertical="^Subpage:" 
-		
-		{% if slide.class == 'title-slide' %}
-			id="{{ section.sectionname }}"
-			data-background="{{ site.baseurl }}/images/diamond-bg-tile.png" 
-			data-background-color="#b84f2d"
-			data-background-size="153px" 
-			data-background-repeat="repeat"
-		{% else %}
-			id="{{ section.sectionname }}--{{ slide.filename }}"
-		{% endif %}
-	>
-	</section>
+	{% capture loop %}
+
+		{% for slide in site.slides %}
+
+			{% if slide.section == section.sectionname %}
+				{% if slide.title == slidename %}
+				
+					{% capture slidecontent %}{{ slide.output }}{% endcapture %}
+
+				{% endif %}
+			{% endif %}
+
+		{% endfor %}
+
+	{% endcapture %}{% assign loop = nil %}
+
+	{{ slidecontent }}
+	{% assign slidecontent = nil %}
 
 {% endfor %}
