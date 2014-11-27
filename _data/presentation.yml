@@ -43,124 +43,54 @@
     - class-inheritance
     - summary
 
+
+
 - sectionname: creatingprograms
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: programs-overview
-      class: centered-slide
-
-    - filename: our-program
-      class: centered-slide
-
-    - filename: starter-code
-      class: centered-slide
-
-    - filename: project-tour
-      class: centered-slide
-
-    - filename: first-run
-      class: centered-slide
-
-    - filename: alleyway-class
-      class: centered-slide
-
-    - filename: include-alleyway
-      class: centered-slide
-
-    - filename: enter-alleyway
-      class: centered-slide
-
-    - filename: door-options
-      class: centered-slide
-
-    - filename: user-input
-      class: centered-slide
+    - title-page
+    - programs-overview
+    - our-program
+    - starter-code
+    - project-tour
+    - first-run
+    - alleyway-class
+    - include-alleyway
+    - enter-alleyway
+    - door-options
+    - user-input
 
 
 
 - sectionname: gameloop
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: loop-identification
-      class: centered-slide
-
-    - filename: loop-definition
-      class: centered-slide
-
-    - filename: enter-room
-      class: centered-slide
-
-    - filename: other-rooms
-      class: centered-slide
-
-    - filename: navigating-rooms
-      class: centered-slide
-
-    - filename: victory-condition
-      class: centered-slide
-
-    - filename: end-in-tool-shed
-      class: centered-slide
-
-    - filename: tip-function-length
-      class: centered-slide
-
-    - filename: ask-what-to-do
-      class: centered-slide
-
-    - filename: simplified-enterroom
-      class: centered-slide
-
-    - filename: hide-key
-      class: centered-slide
-
-    # item constructor explanation
-
-    - filename: print-room-items
-      class: centered-slide
-
-    - filename: picking-up-items
-      class: centered-slide
-
-    - filename: backpack
-      class: centered-slide
-
-    - filename: item-by-button
-      class: centered-slide
-
-    - filename: take-item
-      class: centered-slide
-
-    - filename: item-to-backpack
-      class: centered-slide
-
-    - filename: lock-door
-      class: centered-slide
-
-    - filename: respect-lock
-      class: centered-slide
-
-    - filename: open-door
-      class: centered-slide
-
-    # timing and tidying
+    - title-page
+    - loop-identification
+    - loop-definition
+    - enter-room
+    - other-rooms
+    - navigating-rooms
+    - victory-condition
+    - end-in-tool-shed
+    - tip-function-length
+    - ask-what-to-do
+    - simplified-enterroom
+    - hide-key
+    - print-room-items
+    - picking-up-items
+    - backpack
+    - item-by-button
+    - take-item
+    - item-to-backpack
+    - lock-door
+    - respect-lock
+    - open-door
 
 
 
 - sectionname: endsummary
   slides:
-
-    - filename: ncss-challenge
-      class: centered-slide
-
-    - filename: feedback
-      class: centered-slide
+    - ncss-challenge
+    - feedback
 
 
 
