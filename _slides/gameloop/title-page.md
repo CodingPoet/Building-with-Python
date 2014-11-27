@@ -2,7 +2,7 @@
 title: title-page
 section: gameloop
 layout: slide
-class: default-slide
+class: title-slide
 
 notes: |
   Programs are a bit boring when they just run and then finish.
