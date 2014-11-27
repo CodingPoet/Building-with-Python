@@ -1,0 +1,70 @@
+- sectionname: intro
+  slides:
+    - title-page
+    - what-is-python
+
+
+
+
+- sectionname: pythonfiles
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: helloworld
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: variables
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: conditionals
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: loops
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: lists
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+
+- sectionname: input
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+

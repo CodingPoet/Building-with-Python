@@ -1,0 +1,29 @@
+	<!-- slide -->
+	<section 
+		class="{{ page.class }}"
+		
+		{% if page.class == 'title-slide' %}
+			id="{{ page.section }}"
+			data-background="{{ site.baseurl }}/images/diamond-bg-tile.png" 
+			data-background-color="#b84f2d"
+			data-background-size="153px" 
+			data-background-repeat="repeat"
+		{% else %}
+			id="{{ page.section }}--{{ page.title }}"
+		{% endif %}
+	>
+		
+		{{ page.content }}
+
+		<aside class="notes">
+		
+<!-- 
+notes have to be back here because 
+tabbing in causes them to otherwise 
+be interpreted as code in markdown 
+-->
+{{ page.notes }}
+
+		</aside>
+
+	</section>

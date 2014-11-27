@@ -17,8 +17,8 @@
 		// Optional libraries used to extend on reveal.js
 		dependencies: [
 			{ src: '{{ site.baseurl }}/submodules/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js' },
+			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js' },
 			{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() {
 					hljs.configure({
 						tabReplace: '    ', // 4 spaces
@@ -33,14 +33,17 @@
 	});
 
 	Reveal.addEventListener( 'ready', function( event ) {
-		notes = $(event.currentSlide).find('aside.notes').html();
-	    $('.inline-notes .content').html(marked(notes));
+		copyNotes(event.currentSlide);
 	} );
 
 	Reveal.addEventListener( 'slidechanged', function( event ) {
-	    notes = $(event.currentSlide).find('aside.notes').html();
-	    $('.inline-notes .content').html(marked(notes));
+	    copyNotes(event.currentSlide);
 	} );
+
+	function copyNotes(slide) {
+		notes = $(event.currentSlide).find('aside.notes').html();
+	    $('.inline-notes .content').html( marked(notes) );
+	}
 
 	$(document).keypress(function(e) {
 	  	if(e.which == 13) {

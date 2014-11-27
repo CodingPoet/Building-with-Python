@@ -1,119 +1,47 @@
 - sectionname: pythonfoundations
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: what-is-python
-      class: centered-slide
-
-    - filename: readability-and-syntax
-      class: centered-slide
-
-    - filename: install-and-run
-      class: centered-slide
-
-    - filename: python-versions
-      class: centered-slide
-
-    - filename: real-world-uses
-      class: centered-slide
-
-    - filename: usage-examples
-      class: centered-slide
-
-    - filename: language-popularity
-      class: centered-slide
-
-    - filename: benefits-of-learning
-      class: centered-slide
-
-    - filename: common-concepts
-      class: centered-slide
-
-    - filename: diverse-uses
-      class: centered-slide
-
-    - filename: employable-skill-set
-      class: centered-slide
-
-    - filename: workshop-goals
-      class: centered-slide
-
-    - filename: not-a-crash-course
-      class: centered-slide
-
-    - filename: summary
-      class: centered-slide
+    - title-page
+    - what-is-python
+    - readability-and-syntax
+    - install-and-run
+    - python-versions
+    - real-world-uses
+    - usage-examples
+    - language-popularity
+    - benefits-of-learning
+    - common-concepts
+    - diverse-uses
+    - employable-skill-set
+    - workshop-goals
+    - not-a-crash-course
+    - summary
 
 
 
 - sectionname: languagebasics
   slides:
 
-    - filename: title-page
-      class: title-slide
-
-    - filename: python-files
-      class: centered-slide
-
-    - filename: code-snippets
-      class: centered-slide
-
-    - filename: komodo-edit
-      class: centered-slide
-    
-    - filename: komodo-projects
-      class: centered-slide
-
-    - filename: running-scripts
-      class: centered-slide
-
-    - filename: hello-world
-      class: centered-slide
-
-    - filename: variables
-      class: centered-slide
-
-    - filename: variable-play
-      class: centered-slide
-
-    - filename: dictionaries-and-arrays
-      class: centered-slide
-
-    - filename: dictionary-and-array-play
-      class: centered-slide
-
-    - filename: loops
-      class: centered-slide
-
-    - filename: loop-play
-      class: centered-slide
-
-    - filename: conditionals
-      class: centered-slide
-
-    - filename: conditional-play
-      class: centered-slide
-
-    - filename: functions
-      class: centered-slide
-
-    - filename: function-play
-      class: centered-slide
-
-    - filename: classes
-      class: centered-slide
-
-    - filename: multiple-classes
-      class: centered-slide
-
-    - filename: class-inheritance
-      class: centered-slide
-
-    - filename: summary
-      class: centered-slide
-
+    - title-page
+    - python-files
+    - code-snippets
+    - komodo-edit
+    - komodo-projects
+    - running-scripts
+    - hello-world
+    - variables
+    - variable-play
+    - dictionaries-and-arrays
+    - dictionary-and-array-play
+    - loops
+    - loop-play
+    - conditionals
+    - conditional-play
+    - functions
+    - function-play
+    - classes
+    - multiple-classes
+    - class-inheritance
+    - summary
 
 - sectionname: creatingprograms
   slides:
