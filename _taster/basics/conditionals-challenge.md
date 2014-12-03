@@ -14,6 +14,7 @@ notes: |
 Using the following starter code:
 
 	chosenNumber = input("Please enter a number between 1 and 10: ")
+	chosenNumber = int(chosenNumber)
 
 	# if less than one
 	print("Too low!")
