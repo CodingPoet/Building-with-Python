@@ -5,66 +5,54 @@
 
 
 
-
-- sectionname: pythonfiles
+- sectionname: purpose
   slides:
+    - title-page
+    - command-line
+    - data-crunching
+    - hardware
+    - web-dev
+    - common-concepts
+    - any-career
+    - workshop-mission
 
-    - filename: title-page
-      class: title-slide
 
 
-
-
-- sectionname: helloworld
+- sectionname: komodo
   slides:
+    - title-page
+    - download
+    - python-files
+    - running-programs
 
-    - filename: title-page
-      class: title-slide
 
 
-
-
-- sectionname: variables
+- sectionname: basics
   slides:
+    - title-page
+    - workshop-goals
+    - output
+    - output-challenge
+    - variables
+    - variables-challenge
+    - input
+    - input-challenge
+    - conditionals
+    - conditionals-challenge
+    - loops
+    - loops-challenge
 
-    - filename: title-page
-      class: title-slide
 
 
-
-
-- sectionname: conditionals
+- sectionname: calculator
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-
-
-
-- sectionname: loops
-  slides:
-
-    - filename: title-page
-      class: title-slide
-
-
-
-
-- sectionname: lists
-  slides:
-
-    - filename: title-page
-      class: title-slide
-
-
-
-
-- sectionname: input
-  slides:
-
-    - filename: title-page
-      class: title-slide
-
-
+    - title-page
+    - brief
+    - example
+    - input
+    - input-example
+    - algorithm
+    - algorithm-example
+    - output
+    - output-example
 

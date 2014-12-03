@@ -1,31 +1,13 @@
 ---
 layout: slideshow
-title: Presentation
+title: Python Taster
 ---
 
+	{% assign slideset = site.taster %}
 	{% for section in site.data.taster %}
-		{% for slidename in section.slides %}
+		
+		{% include slideshowsection.html %}
 
-			{% capture loop %}
-
-				{% for slide in site.slides %}
-
-					{% if slide.section == section.sectionname %}
-						{% if slide.title == slidename %}
-						
-							{% capture slidecontent %}{{ slide.output }}{% endcapture %}
-
-						{% endif %}
-					{% endif %}
-
-				{% endfor %}
-
-			{% endcapture %}{% assign loop = nil %}
-
-			{{ slidecontent }}
-			{% assign slidecontent = nil %}
-
-		{% endfor %}
 	{% endfor %}
 
 

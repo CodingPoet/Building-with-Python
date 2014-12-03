@@ -5,3 +5,5 @@ highlighter: true
 collections:
   slides:
     output: true
+  taster:
+    output: true

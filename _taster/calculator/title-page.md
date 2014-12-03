@@ -1,6 +1,6 @@
 ---
 title: title-page
-section: intro
+section: calculator
 layout: slide
 class: title-slide
 
@@ -11,8 +11,6 @@ notes: |
 
 ![Gather Workshops Logo](/Building-with-Python/slideshow/images/gw_logo_header.png)
 
-# Python Taster
-_What is this thing anyway?_
+# Calculator Program
 
-
-tiny.cc/pythontaster
+_Bringing it all together_
