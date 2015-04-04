@@ -4,14 +4,14 @@ This project is a full website containing presentation slides, workbook and extr
 
 The site is designed to be used alongside a workshop deliverd by the Gather Workshops team, but can also be used and explored by anyone without the need for a workshop.
 
-You can view the live site [here](http://nzgather.github.io/Building-with-Python).
+You can view the live site [here](gatherworkshops.github.io/Building-with-Python).
 
 
 
 
 ## Teachers
 
-Please feel free to use anything from the [Building with Python website](http://nzgather.github.io/Building-with-Python) in your classroom. 
+Please feel free to use anything from the [Building with Python website](gatherworkshops.github.io/Building-with-Python) in your classroom. 
 
 If you have any suggestions for changes, we'd love to hear them. You can contact us via [our website](http://gathergather.co.nz/workshops/contact/).
 
