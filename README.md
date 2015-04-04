@@ -23,12 +23,47 @@ If you have any suggestions for changes, we'd love to hear them. You can contact
 
 If you'd like to contribute to this project, you will need to install:
 
-- SASS + Compass
-- Jekyll 3.0
-- Anything required to run those
+- **Ruby** version 2 or higher. [Instructions here](https://www.ruby-lang.org/en/downloads/)
+- **Jekyll** version 3 or higher. [Instructions here](http://jekyllrb.com/docs/installation/)
 
 We'd love to receive pull requests, but please submit any changes in small reviewable blocks! One fix per pull request :)
 
-If you'd like to contribute but you're not sure how to get started, please contact us and we can help to get you set up.
+Please log any comments or bugs [here](https://github.com/gatherworkshops/Building-with-Python/issues).
+
+
+
+
+
+## Local Development
+
+You can run this slideshow on your own computer and make any changes you like. You can then optionally contribute those changes back to the original Gather Workshops copy.
+
+**1. Fork this project**
+Click the "fork" button at the top of the project page on GitHub. This creates a copy of the whole project in your own GitHub account.
+
+**2. Clone the project**
+From your Git application on your computer, clone the project from your own copy in your own GitHub account. This copies all the code to your computer.
+
+**3. Run the project**
+Use the command line or terminal to navigate to the project folder on your computer. Run the command `jekyll serve --watch`. This runs the website on a local web server, and automatically updates when you save changes to the code.
+
+**4. View the project**
+In a web browser, go to `http://0.0.0.0/Building-with-Python/`. You must have the `/` at the end of the URL. You should see the home page of the project.
+
+**5. Make changes**
+Make changes in your normal code editor. When you save a change, wait a few seconds and then refresh the web page. You should see your changes.
+
+**6. Commit changes to GitHub (optional)**
+Use your Git application on your computer to stage, commit and push your changes to your GitHub account.
+
+**7. Send us your changes (optional)**
+From your copy of the project, in your GitHub account, send us a Pull Request containing your suggested changes.
+
+
+
+
+
+
+
 
 
