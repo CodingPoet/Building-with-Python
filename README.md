@@ -48,7 +48,7 @@ From your Git application on your computer, clone the project from your own copy
 Use the command line or terminal to navigate to the project folder on your computer. Run the command `jekyll serve --watch`. This runs the website on a local web server, and automatically updates when you save changes to the code.
 
 **4. View the project**<br>
-In a web browser, go to `http://0.0.0.0/Building-with-Python/`. You must have the `/` at the end of the URL. You should see the home page of the project.
+In a web browser, go to `http://0.0.0.0:4000/Building-with-Python/`. You must have the `/` at the end of the URL. You should see the home page of the project.
 
 **5. Make changes**<br>
 Make changes in your normal code editor. When you save a change, wait a few seconds and then refresh the web page. You should see your changes.
